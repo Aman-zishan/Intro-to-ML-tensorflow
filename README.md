@@ -10,4 +10,17 @@
 
 - *Deep Learning*: A subfield of machine learning that uses multi-layered neural networks. Often, “machine learning” and “deep learning” are used interchangeably.
 
-<p align="center"><img src="https://video.udacity-data.com/topher/2019/April/5cb900ab_ai-diagram/ai-diagram.png"></p>
+<p align="center"><img height="50%" width="50%" src="https://video.udacity-data.com/topher/2019/April/5cb900ab_ai-diagram/ai-diagram.png"></p>
+
+Why **Machine Learning?**
+
+*Traditional Software Development*: The input and the algorithm is known, and you write function to produce an output.
+
+- Input Data
+- Apply logic to it
+- Get output / result
+
+Whereas in *machine learning* You know the input and output, but you don't know the algorithm  that creates the output given the input.
+
+- Take pair of input and output data
+- Figure out the algorithm
