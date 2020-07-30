@@ -53,9 +53,7 @@ Of course, it would be simple enough to create a conventional Python function th
 
 Instead, we will give TensorFlow some sample Celsius values (0, 8, 15, 22, 38) and their corresponding Fahrenheit values (32, 46, 59, 72, 100). Then, we will train a model that figures out the above formula through the training process. :wink:
 
-## [creating a model](#creating-a-model-(To-convert-Celsius-to-Fahrenheit))
-## [Training a model](#)
-## [Deploying a model](#)
+
 
 ## Creating a model (To convert Celsius to Fahrenheit)
 
@@ -67,7 +65,19 @@ Instead, we will give TensorFlow some sample Celsius values (0, 8, 15, 22, 38) a
 - units=1 — This specifies the number of neurons in the layer. The number of neurons defines how many internal variables the layer has to try to learn how to solve the problem (more later). Since this is the final layer, it is also the size of the model's output — a single float value representing degrees Fahrenheit. (In a multi-layered network, the size and shape of the layer would need to match the input_shape of the next layer.)
 
 ```
+#Tensorflow model part
+...
+
 l0 = tf.keras.layers.Dense(units=1, input_shape=[1])
+model = tf.keras.Sequential([l0])
+model.compile(loss='mean_squared_error', optimizer=tf.keras.optimizers.Adam(0.1))
+history = model.fit(celsius_q, fahrenheit_a, epochs=500, verbose=False)
+model.predict([100.0])
 
 ```
+
+<p align="center"><img height="50%" width="50%" src="assets/ML-model.png"></p>
+<p align="center"><img height="50%" width="50%" src="https://video.udacity-data.com/topher/2019/March/5c7f0af9_tensorflow-l2f1/tensorflow-l2f1.png"></p>
+
+<p align="center"><img height="50%" width="50%" src="https://video.udacity-data.com/topher/2019/March/5c7f0b37_tensorflow-l2f2/tensorflow-l2f2.png"></p>
 
