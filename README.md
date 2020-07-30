@@ -1,5 +1,10 @@
 <p align="center"><img src="https://www.gstatic.com/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/tensorflow/images/lockup.svg"></p>
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Aman-zishan/Intro-to-ML-tensorflow) 
+[![GitHub stars](https://img.shields.io/github/stars/kaiiyer/awesome-vulnerable)](https://github.com/Aman-zishan/Intro-to-ML-tensorflow/stargazers)
+![Last Commit on GitHub](https://img.shields.io/github/last-commit/Aman-zishan/Intro-to-ML-tensorflow.svg)
+
+
 *This Repository contains the notes and code snippets from the "Intro to tensorflow for deep learning" course from Udacity.*
 
 **Artificial Intelligence** : A field of computer science that aims to make computers achieve human-style intelligence. There are many approaches to reaching this goal, including machine learning and deep learning.
@@ -26,3 +31,11 @@ Whereas in *machine learning* You know the input and output, but you don't know 
 - Figure out the algorithm
 
 <p align="center"><img height="50%" width="50%" src="assets/ML.png"></p>
+
+Some *machine learning* terminologies:
+
+- **Feature** : The input(s) to our model.
+
+- **Label** : The output our model predicts.
+
+- **Example** : A pair of inputs/outputs used during training.
