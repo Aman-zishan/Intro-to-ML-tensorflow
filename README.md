@@ -43,4 +43,31 @@ Some *machine learning* terminologies:
 
 - **Example** : A pair of inputs/outputs used during training.
 
-## Creating model
+## The basics : Training your first model
+
+The problem we will solve is to convert from Celsius to Fahrenheit, where the approximate formula is:
+
+f=c×1.8+32 
+
+Of course, it would be simple enough to create a conventional Python function that directly performs this calculation, but that wouldn't be machine learning:robot:.
+
+Instead, we will give TensorFlow some sample Celsius values (0, 8, 15, 22, 38) and their corresponding Fahrenheit values (32, 46, 59, 72, 100). Then, we will train a model that figures out the above formula through the training process. :wink:
+
+## [creating a model](#creating-a-model-(To-convert-Celsius-to-Fahrenheit))
+## [Training a model](#)
+## [Deploying a model](#)
+
+## Creating a model (To convert Celsius to Fahrenheit)
+
+**Build a layer**
+- We'll call the layer l0 and create it by instantiating tf.keras.layers.Dense with the following configuration:
+
+- input_shape=[1] — This specifies that the input to this layer is a single value. That is, the shape is a one-dimensional array with one member. Since this is the first (and only) layer, that input shape is the input shape of the entire model. The single value is a floating point number, representing degrees Celsius.
+
+- units=1 — This specifies the number of neurons in the layer. The number of neurons defines how many internal variables the layer has to try to learn how to solve the problem (more later). Since this is the final layer, it is also the size of the model's output — a single float value representing degrees Fahrenheit. (In a multi-layered network, the size and shape of the layer would need to match the input_shape of the next layer.)
+
+```
+l0 = tf.keras.layers.Dense(units=1, input_shape=[1])
+
+```
+
