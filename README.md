@@ -1,9 +1,12 @@
 <p align="center"><img src="https://www.gstatic.com/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/tensorflow/images/lockup.svg"></p>
 
+<div align="center">
+
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Aman-zishan/Intro-to-ML-tensorflow) 
 [![GitHub stars](https://img.shields.io/github/stars/Aman-zishan/Intro-to-ML-tensorflow)](https://github.com/Aman-zishan/Intro-to-ML-tensorflow/stargazers)
 ![Last Commit on GitHub](https://img.shields.io/github/last-commit/Aman-zishan/Intro-to-ML-tensorflow.svg)
 
+</div>
 
 *This Repository contains the notes and code snippets from the "Intro to tensorflow for deep learning" course from Udacity.*
 
@@ -39,3 +42,5 @@ Some *machine learning* terminologies:
 - **Label** : The output our model predicts.
 
 - **Example** : A pair of inputs/outputs used during training.
+
+## Creating model
