@@ -76,7 +76,7 @@ model.predict([100.0])
 
 ```
 
-<p align="center"><img height="50%" width="50%" src="assets/ML-model.png"></p>
+<p align="center"><img src="assets/ML-model.png"></p>
 <p align="center"><img height="50%" width="50%" src="https://video.udacity-data.com/topher/2019/March/5c7f0af9_tensorflow-l2f1/tensorflow-l2f1.png"></p>
 
 <p align="center"><img height="50%" width="50%" src="https://video.udacity-data.com/topher/2019/March/5c7f0b37_tensorflow-l2f2/tensorflow-l2f2.png"></p>
