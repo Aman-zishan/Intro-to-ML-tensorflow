@@ -24,3 +24,5 @@ Whereas in *machine learning* You know the input and output, but you don't know 
 
 - Take pair of input and output data
 - Figure out the algorithm
+
+<p align="center"><img height="50%" width="50%" src="assets/ML.png"></p>
