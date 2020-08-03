@@ -55,7 +55,7 @@ Instead, we will give TensorFlow some sample Celsius values (0, 8, 15, 22, 38) a
 
 
 
-## Creating a model (To convert Celsius to Fahrenheit)
+## Creating a model (To convert Celsius to Fahrenheit- :smile:My first model)
 
 **Build a layer**
 - We'll call the layer l0 and create it by instantiating tf.keras.layers.Dense with the following configuration:
