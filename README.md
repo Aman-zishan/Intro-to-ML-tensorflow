@@ -20,7 +20,7 @@
 
 <p align="center"><img height="50%" width="50%" src="https://video.udacity-data.com/topher/2019/April/5cb900ab_ai-diagram/ai-diagram.png"></p>
 
-Why **Machine Learning?**
+Why **Machine Learning?** :smile:
 
 *Traditional Software Development*: The input and the algorithm is known, and you write function to produce an output.
 
