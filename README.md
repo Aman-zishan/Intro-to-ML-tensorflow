@@ -10,7 +10,7 @@
 
 *This Repository contains the notes and code snippets from the "Intro to tensorflow for deep learning" course from Udacity.*
 
-**Artificial Intelligence** : A field of computer science that aims to make computers achieve human-style intelligence. There are many approaches to reaching this goal, including machine learning and deep learning.
+**Artificial Intelligence** :smile: : A field of computer science that aims to make computers achieve human-style intelligence. There are many approaches to reaching this goal, including machine learning and deep learning.
 
 - *Machine Learning*: A set of related techniques in which computers are trained to perform a particular task rather than by explicitly programming them.
 
