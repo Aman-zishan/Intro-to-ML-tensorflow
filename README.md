@@ -8,7 +8,7 @@
 
 </div>
 
-*This Repository contains the notes and code snippets from the "Intro to tensorflow for deep learning" course from Udacity.*
+*This Repository(Under progress) contains the notes and code snippets from the "Intro to tensorflow for deep learning" course from Udacity.*
 
 **Artificial Intelligence** :smile: : A field of computer science that aims to make computers achieve human-style intelligence. There are many approaches to reaching this goal, including machine learning and deep learning.
 
